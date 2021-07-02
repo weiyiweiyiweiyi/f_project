@@ -1,0 +1,37 @@
+/* 清除元素默认的内外边距 */
+* {
+    padding: 0px;
+    margin: 0px;
+    /* CSS3盒子模型 */
+    box-sizing: border-box;
+}
+/* 去掉li前的小点 */
+li {
+    list-style: none;
+}
+/* 取消链接的下划线、颜色 */
+a {
+    text-decoration: none;
+    color: #666
+}
+/* input和button初始化设置默认不需要边框,去掉input点击后默认出现的蓝色边框*/
+input,button {
+    border: 0px;
+    outline: none;
+}
+/*让所有斜体 不倾斜*/
+i,em {
+    font-style: normal;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}

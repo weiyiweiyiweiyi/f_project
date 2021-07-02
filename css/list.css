@@ -1,0 +1,121 @@
+.sk {
+    position: absolute;
+    width: 85px;
+    height: 26px;
+    top: 44px;
+    margin-left: 201px;
+    background: url(../imgs/sk.png) no-repeat center;
+    border-left: 1px solid #c81623;
+}
+.sk_list ul li {
+    float: left;
+    line-height: 47px;
+}
+.sk_list ul li a {
+    display: block;
+    height: 47px;
+    padding: 0px 30px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+}
+.sk_list ul li:first-of-type a {
+    font-weight: 400;
+}
+.sk_content ul li a {
+    display: block;
+    float: left;
+    height: 47px;
+    padding: 0px 25px;
+    font-size: 12px;
+    line-height: 47px;
+}
+.sk_content ul li:nth-of-type(2) a {
+    color: #c81623;
+}
+.sk_content ul li:last-of-type a::after {
+    content: "\ea52";
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+.sk_hd {
+    height: 120px;
+    background: url(../upload/bg_03.png) no-repeat center
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 458px;
+    /* background:rgb(245, 235, 245); */
+    margin-right: 13px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    /* 鼠标滑过边框，给边框加颜色，本质是边框本身有一个透明色的边框，不然会抖动 */
+    border:1px solid transparent;
+}
+.sk_bd ul li:nth-of-type(4n) {
+    margin-right: 0px;
+}
+.sk_bd ul li:hover {
+    border:1px solid #c81623;
+}
+.sk_bd img {
+    margin-left: 2px;
+}
+.sk_bd p {
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #666666;
+}
+.sk_bd p:nth-of-type(2) {
+    margin-top: 3px;
+    color: #c81623;
+    font-size: 22px;
+}
+.sk_bd p del {
+    color: #a4a4a4;
+    font-size: 14px;
+}
+.sk_bd .process {
+    margin-left: 8px;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #666666;
+}
+.sk_bd .process .box {
+    display: inline-block;
+    width: 133px;
+    height: 11px;
+    border: 1px solid #c81623;
+    border-radius: 6px;
+}
+.sk_bd .process .box1 {
+    width: 85%;
+    height: 100%;
+    background-color: #c81623;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.sk_bd .process .box:hover .box1 {
+    width: 100%;
+}
+.sk_bd .process i {
+    font-size: 16px;
+    color: #c81623;
+}
+.sk_bd .buy {
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 16px;
+    background-color: #c81623;
+}
+.sk_bd .buy a {
+    display: inline-block;
+    width: 200px;
+    height: 48px;
+    font-size: 20px;
+    color: #ededed;
+}

@@ -1,0 +1,102 @@
+.register_area {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.register_area h3 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-size: 18px;
+    color: #333333;
+}
+.register_area .login {
+    font-size: 14px;
+    float: right;
+    color: #333333;
+    margin-right: 5px;
+}
+.register_area .login a {
+    color: #c81623;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto;
+}
+.reg_form li {
+    margin-top: 20px;
+}
+.reg_form label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.reg_form li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+.error{
+    font-size: 12px;
+    color: #df3033;
+}
+.error .error_icon {
+    display: inline-block;
+    /* 行内块元素和后面的文字垂直居中 */
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../imgs/error.png) no-repeat;
+}
+.success{
+    font-size: 12px;
+    color: #df3033;
+}
+.success .success_icon {
+    display: inline-block;
+    /* 行内块元素和文字垂直居中 */
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../imgs/success.png) no-repeat;
+}
+.safe {
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-left: 131px;
+}
+.safe span {
+    padding: 0px 15px;
+    color: #fff;
+    margin-left: 5px;
+}
+.safe span:nth-of-type(1){
+    background-color: #de1111;
+}
+.safe span:nth-of-type(2){
+    background-color: #40b83f;
+}
+.safe span:nth-of-type(3){
+    background-color: #f79100;
+}
+.reg_form .agree {
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-top: 40px;
+    margin-left: 116px;
+}
+.agree a {
+    color: skyblue;
+}
+.btn {
+    width: 202px;
+    height: 34px; 
+    margin-top: 30px;
+    margin-left: 116px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+}
